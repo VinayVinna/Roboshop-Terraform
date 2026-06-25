@@ -9,7 +9,7 @@ resource "aws_instance" "frontend" {
 }
 
 resource "aws_route53_record" "frontend" {
-  zone_id = "Z0318615248O13Q4XTX"
+  zone_id = "Z0318615248O13Q4XTXJ0"
   name    = "frontend-dev"
   type    = "A"
   ttl     = 10

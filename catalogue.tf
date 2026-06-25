@@ -9,7 +9,7 @@ resource "aws_instance" "catalogue" {
 }
 
 resource "aws_route53_record" "catalogue" {
-  zone_id = "Z0318615248O13Q4XTX"
+  zone_id = "Z0318615248O13Q4XTXJ0"
   name    = "catalogue-dev"
   type    = "A"
   ttl     = 10
