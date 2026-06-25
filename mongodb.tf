@@ -17,7 +17,7 @@ resource "aws_instance" "mongodb" {
     }
 
     inline = [
-      "pip3.11 install ansible"
+      "pip3.11 install ansible",
       "ansible-pull -i localhost, -u https://github.com/VinayVinna/Roboshop-shell.git Roboshop.yml -e component_name=mongodb -e env-dev"
 
     ]
