@@ -13,3 +13,11 @@ variable "vpc_security_group_ids" {
 variable "instances" {
   default = ["catalogue", "frontend", "mongodb"]
 }
+
+variable "zone_id" {
+  default = "Z0318615248O13Q4XTXJ0"
+}
+
+variable "env" {
+  default = "dev"
+}
