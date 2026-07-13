@@ -1,4 +1,4 @@
-esource "aws_instance" "instance" {
+resource "aws_instance" "instance" {
   for_each = var.instances
   ami           = var.ami_id
   instance_type = var.instance_type
